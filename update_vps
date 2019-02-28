@@ -1,0 +1,8 @@
+cd /usr/local/bin
+rm hashd
+rm hash-cli
+wget wget http://45.77.117.180/files/linux/hash-linux71317.zip
+unzip \.hash-linux71317.zip
+rm -r hash-linux71317.zip
+sudo hashd -daemon
+hash-cli getinfo
