@@ -6,3 +6,17 @@ unzip \.hash-linux71317.zip
 rm -r hash-linux71317.zip
 sudo hashd -daemon
 hash-cli getinfo
+
+hash.conf (copy-paste)
+staking=1
+maxconnections=64
+addnode=118.38.99.125:4188
+addnode=104.238.179.69:4188
+addnode=144.202.19.61:4188
+addnode=45.77.117.180:4188
+addnode=74.121.190.50:4188
+addnode=216.244.65.74:4188
+addnode=5.189.155.109:4188
+addnode=5.189.168.79:4188
+addnode=173.249.39.161:4188
+dbcache=1000
